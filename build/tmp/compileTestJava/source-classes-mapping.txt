@@ -1,0 +1,6 @@
+com/bedigital/application/resources/UserResourceTest.java
+ com.bedigital.application.resources.UserResourceTest
+com/bedigital/application/BeDigitalApplicationTests.java
+ com.bedigital.application.BeDigitalApplicationTests
+com/bedigital/application/repositories/UserRepositoryTest.java
+ com.bedigital.application.repositories.UserRepositoryTest

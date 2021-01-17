@@ -1,0 +1,10 @@
+com/bedigital/application/domain/User.java
+ com.bedigital.application.domain.User
+com/bedigital/application/BeDigitalApplication.java
+ com.bedigital.application.BeDigitalApplication
+com/bedigital/application/resources/UserResource.java
+ com.bedigital.application.resources.UserResource
+com/bedigital/application/repositories/UserRepository.java
+ com.bedigital.application.repositories.UserRepository
+com/bedigital/application/services/UserService.java
+ com.bedigital.application.services.UserService
