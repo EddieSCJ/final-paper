@@ -1,8 +1,8 @@
-com/bedigital/application/services/UserServiceTest.java
- com.bedigital.application.services.UserServiceTest
-com/bedigital/application/repositories/UserRepositoryTest.java
- com.bedigital.application.repositories.UserRepositoryTest
 com/bedigital/application/BeDigitalApplicationTests.java
  com.bedigital.application.BeDigitalApplicationTests
-com/bedigital/application/resources/UserResourceTest.java
- com.bedigital.application.resources.UserResourceTest
+com/bedigital/application/services/EmployeeServiceTest.java
+ com.bedigital.application.services.EmployeeServiceTest
+com/bedigital/application/repositories/EmployeeRepositoryTest.java
+ com.bedigital.application.repositories.EmployeeRepositoryTest
+com/bedigital/application/resources/EmployeeResourceTest.java
+ com.bedigital.application.resources.EmployeeResourceTest

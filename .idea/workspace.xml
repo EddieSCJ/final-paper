@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b701bb13-ef0f-41c8-988a-205413682670" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/documentation/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bedigital/application/services/UserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bedigital/application/resources/EmployeeResourceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -18,28 +17,23 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.bedigital.application.repositories.UserRepositoryTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.bedigital.application.repositories.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application-test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.bedigital.application.repositories.UserRepositoryTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bedigital/application/resources/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/resources/UserResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bedigital/application/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bedigital/application/BeDigitalApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/BeDigitalApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bedigital/application/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bedigital/application/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/repositories/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bedigital/application/resources/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/resources/EmployeeResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bedigital/application/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/services/EmployeeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bedigital/application/resources/UserResourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bedigital/application/resources/UserResourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bedigital/application/repositories/UserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bedigital/application/repositories/EmployeeRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bedigital/application/resources/UserResourceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bedigital/application/services/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bedigital/application/services/EmployeeServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +72,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -89,12 +84,13 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1nCXBNTX856d89ockt4XV4tcKAM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -110,7 +106,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/bedigital/application/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -126,16 +122,33 @@
       <recent name="com.bedigital.application.documentation" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Development Student\Documents\Workspace\TCC\Be-Digital\src\test\java\com\bedigital\application\resources" />
       <recent name="C:\Users\Development Student\Documents\Workspace\TCC\Be-Digital\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bedigital.application.repositories" />
+      <recent name="com.bedigital.application.resources" />
+      <recent name="com.bedigital.application.services" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.UserResourceTest.getUsers">
-    <configuration name="Tests in 'Be-Digital.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.EmployeeResourceTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeResourceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests *" />
+        <option name="scriptParameters" value="--tests &quot;com.bedigital.application.resources.EmployeeResourceTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -151,12 +164,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserRepositoryTest.insertUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EmployeeResourceTest.shouldDeleteUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bedigital.application.repositories.UserRepositoryTest.insertUser&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bedigital.application.resources.EmployeeResourceTest.shouldDeleteUser&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -172,12 +185,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserResourceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EmployeeResourceTest.shouldGetAllEmployers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bedigital.application.resources.UserResourceTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bedigital.application.resources.EmployeeResourceTest.shouldGetAllEmployers&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -193,12 +206,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserResourceTest.getUsers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EmployeeResourceTest.shouldGetOneUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bedigital.application.resources.UserResourceTest.getUsers&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bedigital.application.resources.EmployeeResourceTest.shouldGetOneUser&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -214,12 +227,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EmployeeResourceTest.shouldUpdateAnEmployer" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bedigital.application.services.UserServiceTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.bedigital.application.resources.EmployeeResourceTest.shouldUpdateAnEmployer&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -242,13 +255,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.BeDigitalApplication" />
+      <item itemvalue="Gradle.EmployeeResourceTest" />
+      <item itemvalue="Gradle.EmployeeResourceTest.shouldUpdateAnEmployer" />
+      <item itemvalue="Gradle.EmployeeResourceTest.shouldGetOneUser" />
+      <item itemvalue="Gradle.EmployeeResourceTest.shouldGetAllEmployers" />
+      <item itemvalue="Gradle.EmployeeResourceTest.shouldDeleteUser" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.UserResourceTest.getUsers" />
-        <item itemvalue="Gradle.UserResourceTest" />
-        <item itemvalue="Gradle.Tests in 'Be-Digital.test'" />
-        <item itemvalue="Gradle.UserServiceTest" />
-        <item itemvalue="Gradle.UserRepositoryTest.insertUser" />
+        <item itemvalue="Gradle.EmployeeResourceTest" />
+        <item itemvalue="Gradle.EmployeeResourceTest.shouldDeleteUser" />
+        <item itemvalue="Gradle.EmployeeResourceTest.shouldGetAllEmployers" />
+        <item itemvalue="Gradle.EmployeeResourceTest.shouldGetOneUser" />
+        <item itemvalue="Gradle.EmployeeResourceTest.shouldUpdateAnEmployer" />
       </list>
     </recent_temporary>
   </component>
@@ -266,82 +287,34 @@
       <workItem from="1611185496543" duration="210000" />
       <workItem from="1611185728760" duration="87000" />
       <workItem from="1611185838475" duration="5301000" />
-      <workItem from="1611191771223" duration="27000" />
+      <workItem from="1611191771223" duration="867000" />
+      <workItem from="1611527342844" duration="20181000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1610906774760">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/1920.0.1536.832/0.0.1920.1040/3840.134.1366.728@0.0.1920.1040" timestamp="1610906774760" />
-    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1611186044327">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1920.0.1536.832/0.0.1920.1040/3840.134.1366.728@0.0.1920.1040" timestamp="1611186044327" />
-    <state x="782" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1610905995682">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="782" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1920.0.1536.832/0.0.1920.1040/3840.134.1366.728@0.0.1920.1040" timestamp="1610905995682" />
-    <state width="1877" height="412" key="GridCell.Tab.0.bottom" timestamp="1611191679436">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="412" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040/3840.134.1366.728@0.0.1920.1040" timestamp="1611191679436" />
-    <state width="1877" height="412" key="GridCell.Tab.0.center" timestamp="1611191679436">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="412" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040/3840.134.1366.728@0.0.1920.1040" timestamp="1611191679436" />
-    <state width="1877" height="412" key="GridCell.Tab.0.left" timestamp="1611191679436">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="412" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040/3840.134.1366.728@0.0.1920.1040" timestamp="1611191679436" />
-    <state width="1877" height="412" key="GridCell.Tab.0.right" timestamp="1611191679436">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="412" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040/3840.134.1366.728@0.0.1920.1040" timestamp="1611191679436" />
-    <state width="1877" height="242" key="GridCell.Tab.1.bottom" timestamp="1611104428467">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="242" key="GridCell.Tab.1.bottom/1920.0.1536.832/0.0.1920.1040/3840.134.1366.728@0.0.1920.1040" timestamp="1611104428467" />
-    <state width="1877" height="242" key="GridCell.Tab.1.center" timestamp="1611104428467">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="242" key="GridCell.Tab.1.center/1920.0.1536.832/0.0.1920.1040/3840.134.1366.728@0.0.1920.1040" timestamp="1611104428467" />
-    <state width="1877" height="242" key="GridCell.Tab.1.left" timestamp="1611104428467">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="242" key="GridCell.Tab.1.left/1920.0.1536.832/0.0.1920.1040/3840.134.1366.728@0.0.1920.1040" timestamp="1611104428467" />
-    <state width="1877" height="242" key="GridCell.Tab.1.right" timestamp="1611104428467">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="242" key="GridCell.Tab.1.right/1920.0.1536.832/0.0.1920.1040/3840.134.1366.728@0.0.1920.1040" timestamp="1611104428467" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1610916917836">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="794" y="443" key="NewPhpFileDialog/1920.0.1536.832/0.0.1920.1040/3840.134.1366.728@0.0.1920.1040" timestamp="1610916917836" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1611185823450">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/1920.0.1536.832/0.0.1920.1040/3840.134.1366.728@0.0.1920.1040" timestamp="1611185823450" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610916155806">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1536.832/0.0.1920.1040/3840.134.1366.728@0.0.1920.1040" timestamp="1610916155806" />
-    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1610910573821">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="667" y="119" width="585" height="801" key="find.popup/1920.0.1536.832/0.0.1920.1040/3840.134.1366.728@0.0.1920.1040" timestamp="1610910573821" />
-    <state x="684" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1610912822607">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="684" y="233" key="git4idea.branch.GitSmartOperationDialog/1920.0.1536.832/0.0.1920.1040/3840.134.1366.728@0.0.1920.1040" timestamp="1610912822607" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610909884712">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1536.832/0.0.1920.1040/3840.134.1366.728@0.0.1920.1040" timestamp="1610909884712" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Be_Digital$Tests_in__Be_Digital_test_.ic" NAME="Tests in 'Be-Digital.test' Coverage Results" MODIFIED="1611185900573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

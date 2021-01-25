@@ -1,13 +1,15 @@
 com/bedigital/application/BeDigitalApplication.java
  com.bedigital.application.BeDigitalApplication
-com/bedigital/application/resources/UserResource.java
- com.bedigital.application.resources.UserResource
-com/bedigital/application/repositories/UserRepository.java
- com.bedigital.application.repositories.UserRepository
 com/bedigital/application/documentation/SwaggerConfig.java
  com.bedigital.application.documentation.SwaggerConfig
  com.bedigital.application.documentation.SwaggerConfig$1
+com/bedigital/application/repositories/EmployeeRepository.java
+ com.bedigital.application.repositories.EmployeeRepository
+com/bedigital/application/domain/Employee.java
+ com.bedigital.application.domain.Employee
 com/bedigital/application/domain/User.java
  com.bedigital.application.domain.User
-com/bedigital/application/services/UserService.java
- com.bedigital.application.services.UserService
+com/bedigital/application/services/EmployeeService.java
+ com.bedigital.application.services.EmployeeService
+com/bedigital/application/resources/EmployeeResource.java
+ com.bedigital.application.resources.EmployeeResource
