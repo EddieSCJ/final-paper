@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Locale;
 
 @Service
 public class EmployeeService {
@@ -22,11 +23,19 @@ public class EmployeeService {
     }
 
     public Employee update(Long id, Employee employee) {
+        String hashedPassword = UtilsService.hashPassword(employee.getPassword());
+        employee.setUsername(employee.getUsername().toLowerCase());
+        employee.setPassword(hashedPassword);
         employee.setId(id);
+
         return employeeRepository.save(employee);
     }
 
     public Employee save(Employee employee) {
+        String hashedPassword = UtilsService.hashPassword(employee.getPassword());
+        employee.setUsername(employee.getUsername().toLowerCase());
+        employee.setPassword(hashedPassword);
+
         return employeeRepository.save(employee);
     }
 

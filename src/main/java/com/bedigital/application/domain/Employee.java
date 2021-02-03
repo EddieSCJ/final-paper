@@ -1,7 +1,6 @@
 package com.bedigital.application.domain;
 
 import lombok.Data;
-import lombok.EqualsAndHashCode;
 
 import javax.persistence.*;
 import java.util.HashSet;
@@ -9,7 +8,7 @@ import java.util.Set;
 
 @Entity
 @Data
-public class Employee extends User {
+public class Employee extends ApplicationUser {
     private String name;
 
     @ElementCollection
@@ -19,7 +18,7 @@ public class Employee extends User {
     private Boolean active;
 
     public Employee(String username, String password, String name, String email, Boolean active) {
-        super(null, username, password);
+        super(username, password);
         this.name = name;
         this.email = email;
         this.active = active;
