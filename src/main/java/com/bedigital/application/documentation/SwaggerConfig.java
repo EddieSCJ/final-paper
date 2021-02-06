@@ -31,7 +31,8 @@ public class SwaggerConfig {
                 .build()
                 .useDefaultResponseMessages(false)
                 .globalResponseMessage(RequestMethod.GET, defaultMessageFor500())
-                .apiInfo(apiInfo());
+                .apiInfo(apiInfo())
+                .useDefaultResponseMessages(true);
     }
 
     public List<ResponseMessage> defaultMessageFor500() {

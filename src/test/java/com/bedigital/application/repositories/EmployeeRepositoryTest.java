@@ -15,8 +15,8 @@ import static org.junit.jupiter.api.Assertions.*;
 public class EmployeeRepositoryTest {
 
     private Long TMP_ID = 1L;
-    private final Employee STARTER_EMPLOYEE = new Employee("eddiescj", "1234", "Edcleidson de Souza Cardoso Júnior", "edcleidson@gmail.com", true);
-    private final Employee UPDATED_EMPLOYEE = new Employee("UPDATED", "1234", "Edcleidson de Souza Cardoso Júnior", "edcleidson@gmail.com", true);
+    private final Employee STARTER_EMPLOYEE = new Employee("eddiescj", "1234", "Edcleidson de Souza Cardoso Júnior", "edcleidson@gmail.com", "+55 79 998968393",  true);
+    private final Employee UPDATED_EMPLOYEE = new Employee("UPDATED", "1234", "Edcleidson de Souza Cardoso Júnior", "edcleidson@gmail.com", "+55 79 998968393",  true);
 
     @Autowired
     private EmployeeRepository employeeRepository;
@@ -34,7 +34,7 @@ public class EmployeeRepositoryTest {
 
     @Test
     public void shouldInsertAnEmployee() {
-        final Employee EMPLOYEE = new Employee( "mariana", "1234", "Mariana de Souza Cardoso Júnior", "Mariana@gmail.com", true);
+        final Employee EMPLOYEE = new Employee( "mariana", "1234", "Mariana de Souza Cardoso Júnior", "Mariana@gmail.com", "+55 79 998968393",  true);
         Employee insertedEmployee = employeeRepository.save(EMPLOYEE);
         assertEquals(EMPLOYEE, insertedEmployee);
     }

@@ -3,6 +3,7 @@ package com.bedigital.application.domain;
 import lombok.Data;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 import java.util.Objects;
 
 @Entity
@@ -11,9 +12,14 @@ import java.util.Objects;
 public class ApplicationUser {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
-    private String username;
-    private String password;
+    protected Long id;
+
+    @Column(unique = true)
+    @NotNull
+    protected String username;
+
+    @NotNull
+    protected String password;
 
     public ApplicationUser(String username, String password) {
         this.id = null;

@@ -21,6 +21,9 @@ public class JWTAuthorizationFilter extends BasicAuthenticationFilter {
         super(authManager);
     }
 
+
+    // Here we substitute the default method to implement our own, with our validations and also call the authenticaiton method
+    // based in the type os authentication
     @Override
     protected void doFilterInternal(HttpServletRequest req,
                                     HttpServletResponse res,
@@ -34,22 +37,25 @@ public class JWTAuthorizationFilter extends BasicAuthenticationFilter {
 
         UsernamePasswordAuthenticationToken authentication = getAuthentication(req);
 
-        SecurityContextHolder.getContext().setAuthentication(authentication);
+        SecurityContextHolder.getContext().setAuthentication(authentication); // setting the auth based on our method
         chain.doFilter(req, res);
     }
 
+
     // Reads the JWT from the Authorization header, and then uses JWT to validate the token
+    // At the request we received our token (after login) and in every request we might put this
     private UsernamePasswordAuthenticationToken getAuthentication(HttpServletRequest request) {
         String token = request.getHeader(SecurityConstants.HEADER_STRING);
         if (token != null) {
-            // parse the token.
-            String user = JWT.require(Algorithm.HMAC512(SecurityConstants.SECRET.getBytes()))
+            // Here it is parsing the token and verifying
+            String user = JWT.require(Algorithm.HMAC512(SecurityConstants.SECRET.getBytes())) //Here we decode the JWT received and
                     .build()
-                    .verify(token.replace(SecurityConstants.TOKEN_PREFIX, ""))
-                    .getSubject();
+                    .verify(token.replace(SecurityConstants.TOKEN_PREFIX, "")) // now we need to replace the "BEARER" and verify
+                    // the token alone by verify()
+                    .getSubject(); // and finally, here is the result
 
             if (user != null) {
-                // new arraylist means authorities
+                // If this is positive, we return an Object with the resullt
                 return new UsernamePasswordAuthenticationToken(user, null, new ArrayList<>());
             }
 

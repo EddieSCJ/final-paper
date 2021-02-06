@@ -5,33 +5,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b701bb13-ef0f-41c8-988a-205413682670" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/security/JWTAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/security/JWTAuthorizationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/security/SecurityConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/security/WebSecurity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/services/UtilsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/services/security/UserDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/domain/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/domain/PhysicalClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/repositories/PhysicalClientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/resources/PhysicalClientResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/resources/exceptions/ErrorMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/services/ApplicationUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/services/PhysicalClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bedigital/application/repositories/PhyisicalClientRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bedigital/application/resources/AuthenticationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bedigital/application/resources/PhysicalClientResourceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bedigital/application/services/ApplicationUserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bedigital/application/services/PhysicalClientServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bedigital/application/BeDigitalApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/BeDigitalApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bedigital/application/documentation/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/documentation/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bedigital/application/domain/ApplicationUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/domain/ApplicationUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bedigital/application/domain/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/domain/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bedigital/application/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/domain/ApplicationUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bedigital/application/repositories/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/repositories/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bedigital/application/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/repositories/ApplicationUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bedigital/application/resources/EmployeeResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/resources/EmployeeResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bedigital/application/security/JWTAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/security/JWTAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bedigital/application/security/JWTAuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/security/JWTAuthorizationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bedigital/application/security/WebSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/security/WebSecurity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bedigital/application/services/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/services/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bedigital/application/services/security/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bedigital/application/services/security/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bedigital/application/repositories/EmployeeRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bedigital/application/repositories/EmployeeRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bedigital/application/resources/EmployeeResourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bedigital/application/resources/EmployeeResourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bedigital/application/services/EmployeeServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bedigital/application/services/EmployeeServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +137,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
@@ -125,9 +149,9 @@
       <recent name="C:\Users\Development Student\Documents\Workspace\TCC\Be-Digital\src\test\java\com\bedigital\application\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.bedigital.application.services" />
-      <recent name="com.bedigital.application.repositories" />
       <recent name="com.bedigital.application.resources" />
+      <recent name="com.bedigital.application.repositories" />
+      <recent name="com.bedigital.application.services" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.BeDigitalApplication">
@@ -142,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeResourceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests in 'Be-Digital.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bedigital.application.resources.EmployeeResourceTest&quot;" />
+        <option name="scriptParameters" value="--tests *" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -163,89 +187,20 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="EmployeeResourceTest.shouldDeleteUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bedigital.application.resources.EmployeeResourceTest.shouldDeleteUser&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="EmployeeResourceTest.shouldGetAllEmployers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bedigital.application.resources.EmployeeResourceTest.shouldGetAllEmployers&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="EmployeeResourceTest.shouldGetOneUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bedigital.application.resources.EmployeeResourceTest.shouldGetOneUser&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="EmployeeResourceTest.shouldUpdateAnEmployer" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bedigital.application.resources.EmployeeResourceTest.shouldUpdateAnEmployer&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+    <configuration name="AuthenticationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Be-Digital.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bedigital.application.resources.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bedigital.application.resources" />
+      <option name="MAIN_CLASS_NAME" value="com.bedigital.application.resources.AuthenticationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="BeDigitalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Be-Digital.main" />
@@ -255,20 +210,14 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.EmployeeResourceTest" />
-      <item itemvalue="Gradle.EmployeeResourceTest.shouldUpdateAnEmployer" />
-      <item itemvalue="Gradle.EmployeeResourceTest.shouldGetOneUser" />
-      <item itemvalue="Gradle.EmployeeResourceTest.shouldGetAllEmployers" />
-      <item itemvalue="Gradle.EmployeeResourceTest.shouldDeleteUser" />
+      <item itemvalue="Gradle.Tests in 'Be-Digital.test'" />
+      <item itemvalue="JUnit.AuthenticationTest" />
       <item itemvalue="Spring Boot.BeDigitalApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.EmployeeResourceTest" />
-        <item itemvalue="Gradle.EmployeeResourceTest.shouldDeleteUser" />
-        <item itemvalue="Gradle.EmployeeResourceTest.shouldGetAllEmployers" />
-        <item itemvalue="Gradle.EmployeeResourceTest.shouldGetOneUser" />
-        <item itemvalue="Gradle.EmployeeResourceTest.shouldUpdateAnEmployer" />
+        <item itemvalue="Gradle.Tests in 'Be-Digital.test'" />
+        <item itemvalue="JUnit.AuthenticationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +241,12 @@
       <workItem from="1611549312096" duration="107000" />
       <workItem from="1611698690890" duration="1619000" />
       <workItem from="1611789427258" duration="1597000" />
-      <workItem from="1612304810754" duration="14933000" />
+      <workItem from="1612304810754" duration="16485000" />
+      <workItem from="1612363990634" duration="30000" />
+      <workItem from="1612395937197" duration="715000" />
+      <workItem from="1612397011947" duration="3518000" />
+      <workItem from="1612544794973" duration="17043000" />
+      <workItem from="1612592220753" duration="6176000" />
     </task>
     <servers />
   </component>

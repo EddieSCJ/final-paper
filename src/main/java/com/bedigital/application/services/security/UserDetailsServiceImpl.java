@@ -1,7 +1,7 @@
 package com.bedigital.application.services.security;
 
 import com.bedigital.application.domain.ApplicationUser;
-import com.bedigital.application.repositories.UserRepository;
+import com.bedigital.application.repositories.ApplicationUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -15,11 +15,11 @@ import static java.util.Collections.emptyList;
 public class UserDetailsServiceImpl implements UserDetailsService {
 
     @Autowired
-    private UserRepository userRepository;
+    private ApplicationUserRepository applicationUserRepository;
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        ApplicationUser user = userRepository.findByUsername(username.toLowerCase());
+        ApplicationUser user = applicationUserRepository.findByUsernameIgnoreCase(username);
         if (user == null) {
             throw new UsernameNotFoundException(username);
         }

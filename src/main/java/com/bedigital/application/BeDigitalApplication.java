@@ -1,7 +1,7 @@
 package com.bedigital.application;
 
 import com.bedigital.application.domain.ApplicationUser;
-import com.bedigital.application.repositories.UserRepository;
+import com.bedigital.application.repositories.ApplicationUserRepository;
 import com.bedigital.application.services.UtilsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -11,10 +11,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 @SpringBootApplication
-public class BeDigitalApplication implements CommandLineRunner {
+public class BeDigitalApplication implements CommandLineRunner{
 
     @Autowired
-    UserRepository userRepository;
+    ApplicationUserRepository applicationUserRepository;
 
     @Bean
     public BCryptPasswordEncoder bCryptPasswordEncoder() {
@@ -29,6 +29,6 @@ public class BeDigitalApplication implements CommandLineRunner {
     public void run(String... args) throws Exception {
         String password = UtilsService.hashPassword("1234");
         ApplicationUser applicationUser = new ApplicationUser("eddie", password);
-        userRepository.save(applicationUser);
+        applicationUserRepository.save(applicationUser);
     }
 }
